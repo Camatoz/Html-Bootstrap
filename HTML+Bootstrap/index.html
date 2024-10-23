@@ -9,17 +9,43 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <style>
+      .rounded-img {
+        width: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        padding: 0.6em;
+        margin-bottom: 1em;
+      }
+    </style>
     <title>My first page</title>
   </head>
   <body>
-    <div class="container text-center">
-      <img src="cat.jpg" alt="cat" />
-      <h1>Some Cat</h1>
-      <p>
-        I am exited to teach you software deelopment. In thiskurs HTML course
-        you will build your personal wesite.
-      </p>
-      <button>Like!23</button>
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <img src="cat.jpg" alt="cat" class="rounded-img" />
+          <h1 class="fw-light">Some Cat</h1>
+          <p class="lead text-muted">
+            I am exited to teach you software deelopment. In thiskurs HTML
+            course you will build your personal wesite.
+          </p>
+          <a
+            href="https://mail.google.com/mail/"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            My email
+          </a>
+          <a
+            href="https://www.youtube.com/CodingTutorials"
+            target="_blank"
+            class="btn btn-secondary"
+          >
+            Cod Tutorial
+          </a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
