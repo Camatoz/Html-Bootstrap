@@ -14,8 +14,25 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
-
-    <style></style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+      }
+    </style>
     <title>My favorite places</title>
   </head>
   <body>
@@ -47,5 +64,76 @@
         </div>
       </div>
     </nav>
+    <div class="container my-5">
+      <diw class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/1015/300"
+              class="card-img-top"
+              alt="river"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mountan river</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content to build on the card title.
+              </p>
+              <a
+                href="https://picsum.photos/id/1015/2000"
+                target="_blank"
+                class="btn btn-primary"
+                >Large photo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/13/300"
+              class="card-img-top"
+              alt="bich"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Old bich</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                odit saepe qui quaerat laborum.
+              </p>
+              <a
+                href="https://picsum.photos/id/13/1500"
+                target="_blank"
+                class="btn btn-primary"
+                >Large photo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/71/300"
+              class="card-img-top"
+              alt="Goidalka"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Goidalka</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content. Lorem ipsum dolor sit amet
+                consectetur.
+              </p>
+              <a
+                href="https://picsum.photos/id/71/1500"
+                target="_blank"
+                class="btn btn-primary"
+                >Large photo</a
+              >
+            </div>
+          </div>
+        </div>
+      </diw>
+    </div>
   </body>
 </html>
